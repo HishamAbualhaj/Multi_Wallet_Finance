@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Cairo, Noto_Sans } from "next/font/google";
 
-import "./globals.css";
+import "@/styles/global.css";
 import { cn } from "@/lib/utils";
 
 const cairo = Cairo({
